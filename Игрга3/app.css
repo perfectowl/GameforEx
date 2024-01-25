@@ -1,0 +1,105 @@
+#splashScreen {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    }
+
+#splashScreen:hover{
+    cursor: default;
+}
+
+#GameOver {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+    }
+
+#GameOver:hover{
+    cursor: default;
+}
+
+#GameOver img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#GameOver h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    }
+
+#retryButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #a00909;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    }
+
+#splashScreen h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    }
+      
+#startButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #a00909;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px
+    }
+
+#game-container {
+    position: center center;
+    width: 500px;
+    height: 500px;
+    min-width: 500px;
+    min-height: 500px;
+    max-width: 700px;
+    max-height: 700px;
+    border: 1px solid rgb(164, 224, 138);
+    background-attachment: scroll;
+    background: rgb(164, 224, 138) url('croc\\green2.png');
+    position: relative;
+    bottom: 1px;
+    right: 1px;
+    
+}
+
+#game-container:hover {
+cursor: url("croc\\cursor1.png"), auto;
+}
+
+#dot {
+    position: absolute;
+    /*width: 31px;
+    height: 100px;*/
+    width: 31px;
+    height: 100px;
+    background-image:url('croc\\croc.gif');
+    transform: rotate(-90deg);
+    overflow: visible;
+    display:block;
+}
+
